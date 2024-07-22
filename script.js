@@ -1,7 +1,7 @@
 const computerSelection = getcomputerChoice();
 
 function getcomputerChoice(){
-    let choice = Math.floor((Math.random() * 2))
+    let choice = Math.floor((Math.random() * 3))
     if (choice === 0) {
         return "Rock"
     }
