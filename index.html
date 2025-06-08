@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Rock, Paper, Scissors</h1>
+    </header>
 
-</head>
-<body>
-    <h1>Rock, Paper, Scissors</h1>
+    <main>
+      <div class="main-header">
+        <h2 class="message">Choose your option</h2>
+        <p class="info">First to score 5 points wins the game</p>
+      </div>
+
+      <div class="score-container">
+        <div class="score-box">
+          <p class="choice player">?</p>
+          <p class="score player">Player: 0</p>
+        </div>
+        <div class="score-box">
+          <p class="choice computer">?</p>
+          <p class="score computer">Computer: 0</p>
+        </div>
+      </div>
+
+      <div class="options">
+        <button class="rock">✊</button>
+        <button class="paper">✋</button>
+        <button class="scissors">✌️</button>
+      </div>
+
+      <button class="new-game">New game</button>
+    </main>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
