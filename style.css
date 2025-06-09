@@ -84,6 +84,10 @@ main {
   cursor: pointer;
 }
 
+.options button:disabled {
+  cursor: not-allowed;
+}
+
 /* NEW GAME */
 
 .new-game {
@@ -95,8 +99,7 @@ main {
   font-size: 16px;
   text-transform: uppercase;
 
-  background-color: #d19ebd;
-  border: 4px solid #8a6c7d;
+  background-color: #fff;
   border-radius: 8px;
 
   cursor: pointer;
@@ -105,13 +108,11 @@ main {
 .new-game:hover {
   color: #fcfcfc;
   background-color: #cb90b4;
-  border: 4px solid #816575;
 }
 
 .new-game:active {
   color: #fcfcfc;
   background-color: #bd75a1;
-  border: 4px solid #725a68;
 }
 
 .options button:active,
